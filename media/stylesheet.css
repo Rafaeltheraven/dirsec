@@ -47,3 +47,40 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* Begin actual CSS code after all the resets */
+
+/* Defining all the custom TF2 fonts */
+@font-face {
+    font-family: "tf2build";
+    src: url("media/fonts/tf2build.ttf");
+}
+
+@font-face {
+    font-family: "tf2";
+    src: url("media/fonts/TF2.ttf");
+}
+
+@font-face {
+    font-family: "tf2professor";
+    src: url("media/fonts/tf2professor.ttf");
+}
+
+@font-face {
+    font-family: "tf2secondary";
+    src: url("media/fonts/TF2secondary.ttf");
+}
+
+/* Code for the wrapper */
+#body-wrapper {
+    width: 500px;
+    margin: 0 auto;
+}
+
+/* General content styling */
+h1 {
+	font-family: tf2build;
+}
+.content {
+	font-family: tf2;
+}

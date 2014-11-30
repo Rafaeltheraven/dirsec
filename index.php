@@ -40,10 +40,11 @@
                 <!-- PHP to choose a tagline from a list -->
                 <?php
                     $subtitles = array(
-                      1 =>  "Over 30 custom"
+                      1 =>  "Over 30 Quality Custom Maps!",
+                      2 =>  "An Authentic TF2 Experience!",
                     );
-                    $max = count($taglines);
-                    $min = $max - ($max - 1);
+                    $max = 2;
+                    $min = 1;
                     echo($subtitles[rand($min, $max)]);
                 ?>
             </div>
@@ -65,7 +66,7 @@
             <!-- Container for an email address (contact info) -->
             <div class="content" id="contactinfo">
                 <!-- Will use recaptcha mailhide to protect spam -->
-                <a href="http://www.google.com/recaptcha/mailhide/d?k=01g-3xbBaAqHRpIK6ZancRVA==&amp;c=1kevnjVi_aJfQ-xQYx1ydw-tuIeSQpGAbaRTxEGMH0E=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501g-3xbBaAqHRpIK6ZancRVA\75\75\46c\0751kevnjVi_aJfQ-xQYx1ydw-tuIeSQpGAbaRTxEGMH0E\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">h...</a>@gmail.com
+                <a href="http://www.google.com/recaptcha/mailhide/d?k=01g-3xbBaAqHRpIK6ZancRVA==&amp;c=1kevnjVi_aJfQ-xQYx1ydw-tuIeSQpGAbaRTxEGMH0E=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501g-3xbBaAqHRpIK6ZancRVA\75\75\46c\0751kevnjVi_aJfQ-xQYx1ydw-tuIeSQpGAbaRTxEGMH0E\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">Contact Us!</a>
             </div>
         </div>
         
